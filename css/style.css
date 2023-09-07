@@ -1,0 +1,400 @@
+.continer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+
+            width: 1300px;
+        margin: auto;
+
+        box-sizing: border-box;
+}
+
+
+header{
+    padding-top: 20px !important;
+}
+a{
+    text-decoration: none;
+}
+
+.button{
+    color: white;
+    background-color: #FAAF04;
+    border: none;
+    width: 325.33px !important;
+    height: 36px;
+    border-radius: 999px;
+    letter-spacing: 1px ;
+}
+
+.fa-location-dot{
+    margin-right: 10px;
+}
+
+.menu a{
+    color: #2F5e8e;
+    margin-left: 15px;
+}
+
+/* 
+.shadow{
+  
+        position: fixed;
+        top: -30px;
+        right: 0;
+        left: 0;
+
+        width: 100%;
+        background-color: #2F5e8e;
+      } */
+
+.shadow{
+    position: sticky;
+    top: 0;
+    z-index: 10000000;
+    width: 1500px !important;
+color: #2F5e8e;
+   
+}
+
+
+.shadow::after{
+    width: 500;
+}
+.kirish{
+    width: 100px;
+    height: 32px;
+    color: #2F5e8e;
+    background-color: #E5E7EB;
+    border-radius: 999px;
+    border: none;
+}
+
+
+.hamburger{
+cursor: pointer;
+    border: none;
+
+    background-color: white;
+}
+
+.carousel{
+    width: 1300px;
+    margin: auto;
+margin-top: 30px;
+  
+}
+
+.carousel img{
+    border-radius: 20px;
+}
+
+.carousel-item{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    border-radius: 99px;
+    
+    padding: 20px !important;
+    background-color: orange;
+}
+
+
+.items{
+    margin-top: 50px;
+}
+.item-title{
+text-align: center;
+font-size: 2.25rem;
+
+}
+
+
+
+
+.nomlar{
+justify-content: center ;
+
+
+}
+
+
+
+.nomlar li a{
+text-decoration: none;
+color: #2F5e8e;
+font-weight: 700;
+}
+
+.title{
+    margin-top: 80px;
+font-size: 30px;
+position: relative;
+}
+
+.line{
+    content: '';
+position: absolute;
+top: 45px;
+width: 65px;
+height: 4px;
+background-color: orange;
+}
+.productcont{
+    width: 100%;
+justify-content: left;
+}
+.product{
+    text-align: center;
+width: 450px;
+border: 1px solid #FAAF04;
+margin-left: 30px;
+padding: 25px;
+border-radius: 19px;
+}
+
+
+
+.product button{
+color: #9CA3AF;
+border:none;
+width: 82px;
+margin-top: 10px;
+
+height: 42px;
+border-radius: 30px;
+padding: 0 !important;
+background-color: #E5E7EB;
+letter-spacing: -0.6px;
+}
+
+.ortacha{
+background-color: #FAAF04 !important;
+color: white !important;
+
+}
+
+
+
+
+
+
+.addtocart{
+    width: 150px !important;
+background-color: #FAAF04 !important;
+color: white !important;
+}
+
+.price{
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.pizza-1 .pitsa_ + .pitsa_{
+margin-left: 15px;
+}
+.pitsa_{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: 625px;
+    border: 1px solid orange;
+    
+    }
+
+.sous_{
+height: 420px;
+}
+
+.snack_{
+height: 470px;
+}
+
+.setlar_{
+height: 560px;
+}
+
+.desert_{
+    height: 500px;
+}
+
+.salat_{
+
+    height: 540px;
+}
+
+.ichimlik_{
+    height: 430px;
+}
+
+.product:hover img{
+    scale: 1.05;
+    transition: 0.5s;
+}
+
+.productname{
+margin-top: 10px
+}
+
+
+.empty{
+
+border: none;
+border-radius: 5px;
+    background-color: #FAAF04 !important;
+}
+
+footer{
+    width: 100%;
+
+    background-color: #2F5e8e;
+
+    height: 500px;
+}
+
+
+
+.text-light{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.footer-logo{
+    width: 200px;
+}
+
+
+.footer_menu p {
+color: white;
+font-weight: bold;
+}
+
+.footer_menu a{
+    color: white;
+    text-decoration: none;
+    
+}
+.footer_menu i{
+    margin-right: 5px;
+    color: #67aaec;
+}
+
+.footer_menu_3{
+    color: white;
+    text-align: right;
+}
+
+.footer_menu_3 p{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.social{
+    justify-content: space-evenly;
+    text-align: right;
+}
+
+.fa-brands{
+  scale: 2.5;
+}
+
+.hr{
+    margin:auto;
+    margin-top: 15px;
+    height: 2px;
+    width: 1300px;
+    background-color: white;
+}
+
+
+.ikki{
+    margin-top: 5px;
+    margin-left: 300px;
+    color: white;
+}
+
+
+
+
+
+
+.text-center{
+    height: 300px;
+width: 250px;
+margin-bottom: 100px;
+
+}
+
+
+.text-center p + p{
+    margin-top: 200px;
+    color: #FAAF04;
+  
+    font-weight: 700;
+}
+
+
+.qoshish{
+    margin-bottom: 500px !important;
+  
+}
+
+form{
+width: 800px;
+height: 620px;
+border: 1px solid #9CA3AF;
+border-radius: 19px;
+padding-top: 30px;
+padding-left: 50px;
+}
+label{
+color: #9CA3AF;
+margin-bottom: 5px;
+}
+input{
+width: 300px;
+height: 40px;
+border-radius: 19px;
+padding-left: 30px;
+border-color: #9CA3AF;
+
+}
+input[type=text]:focus{
+    border: none;
+    outline: 2px solid #2F5e8e;     /* oranges! yey */
+  }
+
+  input[type=tel]:focus{
+    border: none;
+    outline: 2px solid #2F5e8e;     /* oranges! yey */
+  }
+
+  input[type=email]:focus{
+    border: none;
+    outline: 2px solid #2F5e8e;     /* oranges! yey */
+  }
+
+
+  textarea{
+    border-radius: 19px;
+    padding: 20px;
+}
+
+.submit{
+    margin-top: 10px;
+background-color: #FAAF04;
+width: 300px;
+height: 40px;
+border-radius: 19px;
+border: none;
+color: white;
+margin-left: 400px;
+}
+
